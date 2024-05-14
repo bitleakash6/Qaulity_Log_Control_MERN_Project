@@ -51,7 +51,7 @@ const Filter = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:3000/level",
+        "https://quality-log-backend.onrender.com/level/",
         formData
       );
 
