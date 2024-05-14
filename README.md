@@ -1,7 +1,6 @@
 # SDE Intern Assignment Chat360
 Quality Log Control
 
-## Deploy Project
 [**Live**](https://logcontrolsoftware.netlify.app/)
 
 ## Objective
