@@ -7,7 +7,9 @@ Build a problem solution that uses APIs with logs at different stages. These log
 You need to build a Query Interface also that traverses through these logs files and fetches logs based on timestamp, log string, source of the log, etc.
 Both the systems (the log stores and the query interface) can be built using any programming language of your choice.
 
-- **Example:**
+## Sample Log Data Format:
+
+The logs might have the below format.
   ```json
   {
 	"level": "error", ["info", "error", "success"]
@@ -17,7 +19,6 @@ Both the systems (the log stores and the query interface) can be built using any
         "source": "log3.log"
     }
   }
-
 
 ## Tech Stack
 
