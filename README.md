@@ -10,6 +10,8 @@ Both the systems (the log stores and the query interface) can be built using any
 ## Sample Log Data Format:
 
 The logs might have the below format.
+
+-
   ```json
   {
 	"level": "error", ["info", "error", "success"]
@@ -19,6 +21,7 @@ The logs might have the below format.
         "source": "log3.log"
     }
   }
+
 
 ## Tech Stack
 
