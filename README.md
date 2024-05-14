@@ -1,6 +1,9 @@
 # SDE Intern Assignment Chat360
 Quality Log Control
 
+## Deploy Project
+[**Live**](https://logcontrolsoftware.netlify.app/)
+
 ## Objective
 
 Build a problem solution that uses APIs with logs at different stages. These logs should be stored in some log files such as `log1.log`, `log2.log` etc files. 
@@ -89,7 +92,7 @@ Video Demo Here
 Clone the project
 
 ```bash
-  git clone 
+  git clone https://github.com/bitleakash6/Qaulity_Log_Control_MERN_Project.git
 ```
 
 Move into Project folder
