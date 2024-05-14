@@ -7,6 +7,17 @@ Build a problem solution that uses APIs with logs at different stages. These log
 You need to build a Query Interface also that traverses through these logs files and fetches logs based on timestamp, log string, source of the log, etc.
 Both the systems (the log stores and the query interface) can be built using any programming language of your choice.
 
+- **Example:**
+  ```json
+  {
+	"level": "error", // ["info", "error", "success"]
+	"log_string": "Inside the Search API",
+	"timestamp": "2023-09-15T08:00:00Z",    
+    "metadata": {
+        "source": "log3.log"
+    }
+}
+
 ## Tech Stack
 
 *Client:* React.Js, Redux, Material UI
