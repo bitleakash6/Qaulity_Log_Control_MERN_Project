@@ -165,7 +165,7 @@ npm start
 
 ## Authors
 
-- [@AkashBitle]()
+- [@AkashBitle](https://github.com/bitleakash6)
 
 ## Feedback
 
