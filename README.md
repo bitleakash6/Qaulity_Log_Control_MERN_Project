@@ -38,18 +38,6 @@ The logs might have the below format.
 3. **Logging Configuration:** Implement a mechanism to configure logging levels and file paths for each API. This could be through a configuration file or environment variables.
 4. **Error Handling:** Implement robust error handling to ensure that failures in logging do not disrupt the application's functionality.
 
-#### 1. Mechanism for Log Ingestion
-
-- Implement a robust mechanism to ingest logs in the specified JSON format.
-
-#### 2. Scalability
-
-- Ensure the system's scalability to handle high volumes of logs efficiently.
-
-#### 4. HTTP Server for Ingestion
-
-- Logs should be ingested via an HTTP server running on the default port '3000'
-
 ## Bonus Features Implemented
 
 #### 1. Search within Specific Date Ranges
@@ -76,13 +64,10 @@ The logs might have the below format.
 
 ### File Examined When there is no indexing in DB
 
-![logind](https://github.com/AnuragRoshan/images/blob/main/notIndex.png)
-
 Total File Examined For Search Query On Level : "Err" is 47 , Here it is applying Linear Search
 
 ## File Examined When there is indexing in DB
-
-![logind2](https://raw.githubusercontent.com/AnuragRoshan/images/main/index.png)
+Aim for efficient and quick search results.
 
 Total File Examined For Search Query On Level : “Err” is 14 , Here it is applying Binary Search
 
@@ -94,8 +79,6 @@ Total File Examined For Search Query On Level : “Err” is 14 , Here it is app
 
 Video Demo Here
 
-https://drive.google.com/file/d/1yEWF9ce-nk-nmuk6jfYmPpPu9XFLyz4_/view?usp=sharing
-
 ## Required Software
 
 - Node Js must be installed before running project
@@ -106,13 +89,13 @@ https://drive.google.com/file/d/1yEWF9ce-nk-nmuk6jfYmPpPu9XFLyz4_/view?usp=shari
 Clone the project
 
 ```bash
-  git clone https://github.com/AnuragRoshan/LogIngestor.git
+  git clone 
 ```
 
 Move into Project folder
 
 ```bash
-cd november-2023-hiring-AnuragRoshan
+cd Quality_Log_Control
 ```
 
 Move into server and install node dependencies for server side
@@ -144,28 +127,10 @@ cd client
 npm start
 ```
 
-## References
-
-- MongoDB Official Documentation : https://www.mongodb.com/docs/
-- Indexing On Database : https://youtu.be/yo6ZXsgsyBA?si=Ft5swjQ9MgU-TkPi
-- Front End UI : https://devsnap.me/css-toggle-switches
-
 ## Authors
 
-- [@AnuragRoshan](https://github.com/AnuragRoshan)
+- [@AkashBitle]()
 
 ## Feedback
 
-If you have any feedback, please reach out to us at anuragraushan373@gmail.com
-
-## Toggle Role Page
-
-![mvrs6](https://github.com/AnuragRoshan/images/blob/main/log1.png)
-
-The "Toggle Role" page enables administrators to effortlessly switch between roles, granting access to specialized query filters. This streamlined interface empowers administrators with exclusive capabilities, ensuring users maintain restricted access without compromising security.
-
-## Filter Page
-
-![mvrse1](https://github.com/AnuragRoshan/images/blob/main/log2.png)
-
-![mvrs9](https://github.com/AnuragRoshan/images/blob/main/log3.png)
+If you have any feedback, please reach out to us at akashbitle3@gmail.com
