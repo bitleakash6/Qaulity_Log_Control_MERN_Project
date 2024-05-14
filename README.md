@@ -111,6 +111,16 @@ Total File Examined For Search Query On Level : “Err” is 14 , Here it is app
 
 ---
 
+### Query Interface Succesfully Implemented : 
+
+- Offer a user interface (Web UI or CLI) for full-text search across logs.
+- Include filters based on:
+    - level
+    - log_string
+    - timestamp
+    - metadata.source
+- Aim for efficient and quick search results.
+  
 ## Demo
 
 Video Demo Here
