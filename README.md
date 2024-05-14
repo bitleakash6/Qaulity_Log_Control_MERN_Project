@@ -3,6 +3,40 @@ Quality Log Control
 
 [**Live**](https://logcontrolsoftware.netlify.app/)
 
+## Backend Live to Enter logs
+[**Live**](https://quality-log-backend.onrender.com)
+
+### Steps to Enter post logs
+- 1. Enter url https://quality-log-backend.onrender.com on postman or any software that you used. It is an API's
+  2. It is an Post method so it requires body data
+  3. - ```josn
+       [
+	    {
+	        "level": "error",
+	        "log_string": "Inside the Search API",
+	        "timestamp": "2024-09-15T08:00:00Z",
+	        "metadata": {
+	            "source": "log3.log"
+	        }
+	    },
+	    {
+	        "level": "info",
+	        "log_string": "User login successful",
+	        "timestamp": "2024-09-16T09:30:00Z",
+	        "metadata": {
+	            "source": "log1.log"
+	        }
+	    },
+	    {
+	        "level": "success",
+	        "log_string": "Data processed successfully",
+	        "timestamp": "2024-09-17T10:45:00Z",
+	        "metadata": {
+	            "source": "log2.log"
+	        }
+	    }
+       ]
+
 ## Objective
 
 Build a problem solution that uses APIs with logs at different stages. These logs should be stored in some log files such as `log1.log`, `log2.log` etc files. 
