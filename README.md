@@ -31,6 +31,13 @@ The logs might have the below format.
 
 ## Features Implemented
 
+### Log Ingestor:
+
+1. **API Integration:** Integrate 8-9 APIs into your application to capture logs at different stages. Ensure that each API can write logs to a designated file, such as `log1.log`, `log2.log`, and so on.
+2. **Log Formatting:** Standardize the format for logging across all APIs. This could include a timestamp, log level, source, log message, etc.
+3. **Logging Configuration:** Implement a mechanism to configure logging levels and file paths for each API. This could be through a configuration file or environment variables.
+4. **Error Handling:** Implement robust error handling to ensure that failures in logging do not disrupt the application's functionality.
+
 #### 1. Mechanism for Log Ingestion
 
 - Implement a robust mechanism to ingest logs in the specified JSON format.
