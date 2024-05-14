@@ -16,7 +16,8 @@ Both the systems (the log stores and the query interface) can be built using any
     "metadata": {
         "source": "log3.log"
     }
-}
+  }
+
 
 ## Tech Stack
 
